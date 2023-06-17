@@ -30,6 +30,6 @@ setup(
     packages=["llm_hello_world"],
     entry_points={"llm": ["llm_hello_world = llm_hello_world"]},
     install_requires=["llm"],
-    extras_require={"test": ["pytest", "pytest-asyncio"]},
+    extras_require={"test": ["pytest"]},
     python_requires=">=3.7",
 )
